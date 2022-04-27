@@ -56,6 +56,7 @@ class VideoState extends State<Splash> with SingleTickerProviderStateMixin{
 
     return Scaffold(
       backgroundColor: Colors.black,
+      // Color(0xff123456),
       body: Stack(
         fit: StackFit.expand,
         children: <Widget>[
