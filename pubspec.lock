@@ -49,7 +49,14 @@ packages:
       name: cupertino_icons
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.2"
+    version: "1.0.4"
+  endless:
+    dependency: "direct main"
+    description:
+      name: endless
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.6.1"
   fake_async:
     dependency: transitive
     description:
@@ -95,6 +102,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.7.0"
+  paginated_search_bar:
+    dependency: "direct main"
+    description:
+      name: paginated_search_bar
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.1.2"
   path:
     dependency: transitive
     description:
@@ -102,6 +116,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.8.0"
+  rxdart:
+    dependency: transitive
+    description:
+      name: rxdart
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.27.3"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -128,6 +149,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.10.0"
+  state_property:
+    dependency: transitive
+    description:
+      name: state_property
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.1.1"
   stream_channel:
     dependency: transitive
     description:
@@ -179,3 +207,4 @@ packages:
     version: "2.1.1"
 sdks:
   dart: ">=2.14.0 <3.0.0"
+  flutter: ">=1.17.0"

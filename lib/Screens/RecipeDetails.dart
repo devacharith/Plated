@@ -112,36 +112,40 @@ class RecipeDetails extends StatelessWidget {
                   initialIndex: 0,
                   child: Column(
                     children: [
-                      TabBar(
-                        isScrollable: true,
-                        indicatorColor: Colors.red,
-                        tabs: [
-                          Tab(
-                            text: "Recipe".toUpperCase(),
-                          ),
-                          // Tab(
-                          //   text: "Preparation".toUpperCase(),
-                          // ),
-                          // Tab(
-                          //   text: "Reviews".toUpperCase(),
-                          // ),
-                        ],
-                        labelColor: Colors.black,
-                        indicator: DotIndicator(
-                          color: Colors.black,
-                          distanceFromCenter: 16,
-                          radius: 3,
-                          paintingStyle: PaintingStyle.fill,
-                        ),
-                        unselectedLabelColor: Colors.black.withOpacity(0.3),
-                        labelStyle: TextStyle(
-                          fontSize: 12,
-                          fontWeight: FontWeight.w600,
-                        ),
-                        labelPadding: EdgeInsets.symmetric(
-                          horizontal: 32,
-                        ),
-                      ),
+                      Text('RECIPE',
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold
+                      ),),
+                      // TabBar(
+                      //   isScrollable: true,
+                      //   indicatorColor: Colors.red,
+                      //   tabs: [
+                      //     Tab(
+                      //       text: "Recipe".toUpperCase(),
+                      //     ),
+                      //     // Tab(
+                      //     //   text: "Preparation".toUpperCase(),
+                      //     // ),
+                      //     // Tab(
+                      //     //   text: "Reviews".toUpperCase(),
+                      //     // ),
+                      //   ],
+                      //   labelColor: Colors.black,
+                      //   indicator: DotIndicator(
+                      //     color: Colors.black,
+                      //     distanceFromCenter: 16,
+                      //     radius: 3,
+                      //     paintingStyle: PaintingStyle.fill,
+                      //   ),
+                      //   unselectedLabelColor: Colors.black.withOpacity(0.3),
+                      //   labelStyle: TextStyle(
+                      //     fontSize: 12,
+                      //     fontWeight: FontWeight.w600,
+                      //   ),
+                      //   labelPadding: EdgeInsets.symmetric(
+                      //     horizontal: 32,
+                      //   ),
+                      // ),
                       Divider(
                         color: Colors.black.withOpacity(0.3),
                       ),
@@ -243,6 +247,7 @@ class Ingredients extends StatelessWidget {
                 return Divider(color: Colors.black.withOpacity(0.3));
               },
             ),
+
           ],
         ),
       ),

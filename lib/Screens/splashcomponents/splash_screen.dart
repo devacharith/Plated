@@ -2,6 +2,7 @@ import 'dart:async';
 // import 'package:app_prakyath/Screens/control.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_recipee_app/Screens/HomePage.dart';
+import 'package:flutter_recipee_app/Screens/Login/login.dart';
 
 
 
@@ -26,7 +27,7 @@ class VideoState extends State<Splash> with SingleTickerProviderStateMixin{
 
   void navigationPage() {
     Navigator.of(context).push(
-        MaterialPageRoute(builder: (context) => MyHomePage())
+        MaterialPageRoute(builder: (context) => Login())
     );
   }
 
@@ -70,7 +71,7 @@ class VideoState extends State<Splash> with SingleTickerProviderStateMixin{
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               new Image.asset(
-                'img1.jpg',
+                'assets/images/logo.jpeg',
                 width: animation.value * 600,
                 height: animation.value * 600,
               ),

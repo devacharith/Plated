@@ -26,13 +26,16 @@ class RecipeModel {
       servings: 4,
       imgPath: 'assets/images/img1.jpg',
       ingredients: [
-        '8 large eggs',
-        '1 tsp. Dijon mustard',
-        'Kosher salt and pepper',
-        '1 tbsp. olive oil or unsalted butter',
-        '2 slices thick-cut bacon, cooked and broken into pieces',
-        '2 c. spinach, torn',
-        '2 oz. Gruyère cheese, shredded',
+        'In a large bowl, whisk together eggs, Dijon mustard, 1 tablespoon water and 1/2 teaspoon each salt and pepper.',
+        'Heat oil or butter in 10-inch nonstick skillet on medium. Add eggs and cook, stirring with rubber spatula every few seconds, to desired doneness, 2 to 3 minutes for medium-soft eggs. Fold in bacon, spinach, and Gruyère cheese.',
+
+        // '8 large eggs',
+        // '1 tsp. Dijon mustard',
+        // 'Kosher salt and pepper',
+        // '1 tbsp. olive oil or unsalted butter',
+        // '2 slices thick-cut bacon, cooked and broken into pieces',
+        // '2 c. spinach, torn',
+        // '2 oz. Gruyère cheese, shredded',
       ],
       preparation: [
         'In a large bowl, whisk together eggs, Dijon mustard, 1 tablespoon water and 1/2 teaspoon each salt and pepper.',
